@@ -5,10 +5,7 @@
 * Browsers: last 4 version
 */
 @media screen and (max-width: 1200px){
-  .section-5{
-    flex-direction: column;
-    height: 300px;
-  }
+
   .section-5-h4, .li-list-wrapper{
     margin-top: 20px;
     padding-bottom: 20px;
@@ -21,6 +18,9 @@
   }
 }
 @media screen and (max-width: 950px) {
+    .section-5{
+    height: 200px;
+  }
   .li-block,
   .button-1,
   .logo-div {
@@ -132,6 +132,7 @@
     margin: auto;
   }
   .section-5 {
+
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -157,16 +158,16 @@
   .font {
     padding-top: 20px;
   }
+
 }
 @media screen and (max-width: 550px) {
+  .section-5{
+        height: 320px;
+  }
   .section-3-div {
     -webkit-transform: scale(0.6);
         -ms-transform: scale(0.6);
             transform: scale(0.6);
-  }
-  .section-5 {
-    width: 95%;
-    height: auto;
   }
   .ul-div {
     display: -webkit-box;
